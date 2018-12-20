@@ -3,11 +3,11 @@ int main()
 {
 int b;
 int h;
-int area;
-int op;
+float area;
+float op;
 printf (" enter the base and height of the triangle");
 scanf("%d %d", &b ,&h);
 op = b*h;
 area = op/2;
-printf (" the area of the triangle is %d" , area);
+printf (" the area of the triangle is %f" , area);
 }
