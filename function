@@ -13,10 +13,8 @@ printf ("the area of the triangle is %f" , result);
 
 float area(int a, int b)
 {
-float op;
 float out;
-op = (a*b);
-out = op/2;
+out = (a*b)/2;
 return out;
 }
 
